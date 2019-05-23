@@ -1,0 +1,27 @@
+Basic aim and structure: we are developing robot legs inspired by the                    
+bi-articular muscle-tendon complex of cats.
+For the knee and ankle joints, a four-bar linkage mechanism with one elastic linkage, in which
+the knee joint is driven by an electric rotary motor and the
+ankle joint is passive.
+
+In general,from the view of the biomechanic point, the muscles and
+the tendons can be replaced by the combination of linear actuators and viscoelastic elements in engineering.
+
+Limitation of hydraulic cylinder:For
+Although the hydraulic cylinder is able to generate
+large force, a big energy source is required to drive it. It
+results the increase in size and weight of the robot, and it
+is difficult to reproduce instantaneous motions like animals.
+
+The pneumatic artificial muscles behave like muscles in small
+size, but it can produce only small output and is not suitable
+for precise control. Therefore, electric rotary motors with
+excellent controllability, light weight and compact size as
+well as low cost, are still attractive as the actuators for the
+legged robots
+
+Most of the kinetic energy can be stored to
+the elastic linkage as elastic energy during landing phase.
+And the stored energy is released passively together with the
+active motor actuating during the jumping process to achieve
+high and efficient jumping.

@@ -1,0 +1,50 @@
+For safe landing of airdropped materials, compliant legs are much more effective than rigid legs.
+This is supported by  the experimental result the test robot experienced
+7.7 × 10 m/s2 or 7.9 g-acceleration when dropped from height
+of 37.85 cm. This result is much better than the result of
+1.4 × 102 m/s2 or 14.7 g-acceleration when dropped at 10% of
+the original height with the same robot equipped with rigid legs.
+
+Advantages of usinng compliant legs(passive damping):
+Limitation of using parachute is that it can only reduce speed upto terminal velocity.
+Other methods for impact attenuation lead to o additional weight, cost, and effort to pack
+and unpack cargo and hide the system from enemy detectionif necessary.
+These are overcome by using compliant legs quadruped.
+
+These can be reused and can be applied to locomotion as well.
+
+compliant actuators cannot only allow energy storage, but also allow for better shock tolerance.
+
+
+Active damping works well with rigid actuators.
+Limitation of active damping:
+
+active damping alone with such actuators is not
+effective unless the robot can accurately predict its impact. Otherwise, impact on rigid legs
+will be too short that a robot’s controller will not be able to
+react in time to attenuate impact properly.
+Due to the mechanical lag of the servos, the robot’s leg
+posture could not be adjusted fast enough to effectively
+reduce the peak acceleration during the landings. In addition,
+the servos had the tendency to freeze upon impact, rendering 
+active damping ineffective
+
+Advantage of a 3 segment leg over 2 segment joint leg:
+The optimal minimum acceleration
+for the 2SCJ configuration is at around 110 m/s2 or 11 g’s,
+much higher than that of 3S configuration. This is likely
+because the 3S legs have two segments that fold during
+landing, whereas the 2SCJ legs only have one. Thus, the
+latter fold over a shorter distance. As a result, the 2SCJ
+springs must be stiffer in order to decelerate the body while
+covering less vertical distance. In addition, the 2SCJ springs
+require a longer range of motion than 3S, which increases
+minimum size of pulley to cover the range of motion, thus
+leading to greater load on knee servos and less faborable leg
+performance compared to that of 3S.
+
+The impact attenuation performance of
+compliant legs was also shown better compared to active
+damping or control of posture on a quadruped robot with
+rigid legs. In addition, a robot with compliant legs was
+much more likely to land on its four feet

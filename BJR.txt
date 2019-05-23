@@ -1,0 +1,46 @@
+ collaborative role
+between double-acting cylinder and the torsion spring as the
+power element in the design of jumping robots. 
+
+system consists of two legs with hip,
+knee, and ankle joints. We installed a pneumatic cylinder and
+a torsion spring on each joint which has one degree of
+freedom. 
+
+
+Advantages of pneumatic cylinders and torsion spring
+small, light, and
+has a high power-to-weight ratio, at the mean time it can store
+energy easily and accelerate in a short time
+
+The torsion
+spring can not only store the energy, but also increase the
+flexibility of joints. 
+
+ We installed pneumatic cylinder in the
+leg joints to imitate the muscle in the jumping movement.
+Torsion springs simulate the role of tendon energy storage,
+while increase joint flexibility.
+
+When the robot contracting the legs after take-off in the
+air, torsion spring can not only reduces the collision produced
+by the pneumatic cylinder, but also stores the remaining
+energy.
+
+Experimental results show that exploiting the synergy
+between double-acting cylinder and the torsion spring as the
+power element is effective. 
+
+
+Disadvantages of pneumatic cylinders
+The losses of pressure and air compressibility make the pneumatics less efficient than other methods of linear motion.
+
+Accurate control and efficiency require proportional regulators and valves, but this increases costs and complexity. 
+
+In order to return to its position, the piston of the actuator requires the force of a return spring or fluid supplied on the other side of the piston.
+
+
+Main aim of designing leg for jumping
+is making the actuation to release
+large instantaneous force in a short duration.
+

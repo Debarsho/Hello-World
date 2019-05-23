@@ -1,0 +1,40 @@
+developed the robotic platform based on components and parts that are readily
+available off-the shelf and are found in most typical hardware and
+electronic shops. 
+
+the controller obtains the instantaneous average of the
+gyroscope reading to determine if indeed the desired motion is
+attained. 
+
+
+This is a radio controlled robot.
+The Radio Controller is used to input commands wirelessly from
+the user to the robot. We used an off-the-shelf remote-controlled
+car controller and customized it according to our desired application. 
+
+The Receiver located at the platform receives the commands
+and sends them to the controller module. 
+
+The Controller Module
+converts user commands and the data from the sensors to be processed in the hopping algorithm. These enable the operation of
+the hopping mechanism.
+ 
+The Hopping Mechanism consists of
+three legs that have springs which continuously compress and
+decompress in a quick manner in order to lift the robot from the
+ground, thus performing a hopping movement. 
+
+The spring of each leg compresses at varying speed with respect to
+the other legs to enable hopping at the desired directions. 
+Thus, 4 operations namely forward , backward, left and right could be executed.
+
+The Motor is the actuator employed to achieve the entire hopping mechanism. It rotates the
+cam continuously and aids the quick release mechanism for hopping.
+
+Limitations:
+In this specific model, the shock absorbent system is not well adopted.
+The springs are attached vertically, so in order to have a efficient shock absorber,
+the spring has to conpress a length which is not possible keeping in mind the height of 
+the robot and the length of the springs. 
+This model is only suitable for short jumps.
+So, in most jumping robots, 2 or 3 segment legs are implemented.
